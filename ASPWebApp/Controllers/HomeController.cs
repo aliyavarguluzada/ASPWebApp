@@ -12,5 +12,9 @@ namespace ASPWebApp.Controllers
         {
             return View();
         }
+        public IActionResult Index404()
+        {
+            return View();
+        }
     }
 }
