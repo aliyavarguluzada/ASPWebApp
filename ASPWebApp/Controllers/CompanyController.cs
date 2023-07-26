@@ -4,7 +4,11 @@ namespace ASPWebApp.Controllers
 {
     public class CompanyController : Controller
     {
-        public IActionResult Company()
+        public IActionResult About()
+        {
+            return View();
+        }
+        public IActionResult Faq() 
         {
             return View();
         }
